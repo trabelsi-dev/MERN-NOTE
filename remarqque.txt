@@ -1,0 +1,62 @@
+************************** les etape de projet *****************************
+partie backend :
+créer dossier ensuite ouvre cette doossier en vs code aprés run le commende npm init .installe les package necessaire  par exemple comme 
+npm express nodemon bcrypt 
+-aprés créer les fichier necessaire pour back
+-pour run notre projet allez au package.json en csript met "start":nodemon server.js (fil cas te3na 7atina backend 5atrou ta7it dossier backend)
+donc commande ===== > npm start
+
+-get /api/notes
+-post /api/notes
+-put /api/notes/:id
+-delete /api/notes/:id
+
+.env heda file fih hajet privée ta3 projet  bech tista3mlou lezmik tsob package te3ou bil commande hedi
+=> npm i dotenv
+
+
+-----video 5 (front)
+ibina react w zeda fama kifeh push projet fil github 
+
+créer react app :
+npx create-react-app nameapp
+cd nameap
+npm start (run react app)
+
+-aprés de la creation de projet  react app fama hajet na7hio kima 
+-les commentaire fi public/index.html remarque t7ab tbadil tile de notre app tal9ah fi index.html
+fil index.html hawka hatin id root heka pointi al index.js w index.js i3awit lil app  ya3ni ay haja fil app il va afficher 
+
+-les files fas5oum : app.test.js et logo.svg et setupTest.js  w ba3id fasa5 il import zeydin
+w ili app il conetnu fi wisit div 
+
+
+
+
+**** how ad boootstrap in react 
+rq: bootswatch heda tal9a des template free 
+ 1/ documentation :https://www.pluralsight.com/guides/how-to-use-react-bootstrap-with-npm
+
+ -install :  npm install react-bootstrap bootstrap
+  - now in file src/index.js import :import 'bootstrap/dist/css/bootstrap.min.css';
+  - apres fil file ki tista3mil hajet kima navbar etc a3mlilhom import fi nafis file taw timchi 
+
+-----
+add react router in react 
+-il faut install ===> npm i react-router-dom
+
+
+** accordion hedi fil bootstrap ki tinzil al contenu yahbit liktiba le contenu hawka fil app fama exemple
+
+- ista3mlna axios lil crud fil aprtie front w fih hoya isir zeda call lil back w zeda 
+
+
+-rabta mabina front et back 
+-timchi lil front fi package.json tzid ===>    "proxy":"http://127.0.0.1:5000", 5000 heka port ta3 backend
+w ba3id fil les file lo5rin i5dimna bil axios w hawka in7otou zeda path ta3 kol api
+
+
+- fil video 8 fama kifeh torbit back bil front et kifeh avec une seul commande peut run front avec back
+
+-istamlna mongodb lil base te3na 
+-mongoose to connect back to base de deonnées mongodb 
